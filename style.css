@@ -1,0 +1,152 @@
+body {
+    --color--title: rgb(7, 48, 53);
+    --color--text:rgb(70, 67, 67) ;
+    --color-button:rgba(255, 255, 255, 0.631);
+    --color-buton-survoled: rgb(7, 48, 53) ;
+
+
+    background-color: whitesmoke;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+#logo{
+    width: 60px;
+    height: 80px;
+    border: solid 2px var(--color--text);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius:50px;
+}
+
+button{
+    background-color: var(--color-button);
+    height: 30px;
+    width: max-content;
+
+    margin: 5px;
+    border-radius: 25px;
+    border: solid 2px var(--color--text);
+}
+
+
+/*div article*/
+.container{
+    
+    width: 70%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    padding: 0;
+    height:250px;
+    border: solid 1px var(--color--title);
+    border-radius: 30px;
+    
+}
+
+.img-article{
+    height:250px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+
+/*article*/
+.article-right{
+    margin: 0;
+    padding: 5px;
+    background-image: url(img/background.jpeg);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+}
+.date{
+    text-align: right;
+    margin-right: 15px;
+    font-size: 15px;
+    color: var(--color--text);
+}
+
+h1{
+    color: var(--color--title);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section{
+    color: var(--color--text);
+    margin: 5px;
+}
+.footer-article{
+ display: flex;
+justify-content: space-between;
+ margin: 5px;
+}
+
+.socialnet{
+    background-color: var(--color--title);
+}
+
+
+/*footer*/
+
+#footerfinal{
+    width: 60%;
+    margin:  auto ;
+    text-align: center;
+    
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+
+}
+
+#btn-select-article{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#ultimateLine{
+    
+display: flex;
+justify-content: space-around;
+border-top: solid 1px var(--color--text);
+
+margin:  auto 5px ;
+}
+
+#copyright{
+    color: var(--color--text);
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#refproject{
+    color: var(--color--text);
+    font-size: 10px;
+    margin-top: 0;
+    text-align: right;
+}
+
+#elementListFooter{
+    display: flex;
+justify-content: space-around;
+}
+
+
+li{
+    list-style-type: none ;
+    color: var(--color--text);
+    font-size: 10px;
+    margin-right: 20px;
+}
